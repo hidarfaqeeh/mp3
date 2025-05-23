@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt || true
 
 # الأمر الافتراضي لتشغيل التطبيق (عدله حسب حالتك)
-CMD ["python", "mainn.py"]
+CMD ["python", "main.py"]
